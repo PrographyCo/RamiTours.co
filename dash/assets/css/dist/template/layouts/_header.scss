@@ -1,0 +1,79 @@
+header {
+  //popover first menu
+
+
+
+
+  .header-top {
+    height: $header-height;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+    box-sizing: border-box;
+    font-size: 16px;
+
+
+   //mobile
+   .two-menu{
+     a{
+       .line-menu {
+         border-radius: 2px;
+         height: 2px;
+         width: 18px;
+         border: 1px solid #FF8C07;;
+         margin: 4px;
+
+
+       }
+           }
+   }
+
+    /* Styles for wrapping the search box */
+.form-group{
+  margin-left: -4%;
+
+  @media (min-width: 1367px) {
+
+    margin-left: -8%;
+  }
+
+}
+
+
+    /* Bootstrap 4 text input with search icon */
+input::placeholder{
+  font-size: 18px !important;
+}
+    .has-search .form-control {
+
+      border-radius: 50px;
+      border:.1px solid #E4E6EB;
+      background-color: #E4E6EB;
+      padding-left: 2.375rem;
+      color: #606770;
+
+
+    }
+
+    .has-search .form-control-feedback {
+
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2.575rem;
+      height: 3.075rem;
+      line-height: 3.075rem;
+      text-align: center;
+      pointer-events: none;
+      color: #8E959F;
+      border-radius: 50px;
+
+    }
+
+
+  }
+
+
+
+}

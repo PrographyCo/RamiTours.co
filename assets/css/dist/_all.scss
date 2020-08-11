@@ -1,0 +1,55 @@
+a{
+  &:hover{
+    text-decoration: none;
+    transition: all 0.25ms ease-in-out;
+    color: #FF8C07 !important;
+  }
+}
+
+.home .swiper-slide .title {
+  font-size: 50px;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  @media only screen and (max-width: 992px) {
+    font-size: 35px;
+
+  }
+  @media only screen and (max-width: 576px) {
+    font-size: 25px;
+
+  }
+
+}
+
+
+.home h1{
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+
+  @media only screen and (min-width: 1440px) {
+    font-size: 70px;
+
+  }
+  @media only screen and (max-width: 992px) {
+    font-size: 35px;
+
+  }
+  @media only screen and (max-width: 576px) {
+    font-size: 22px;
+font-weight: bold;
+  }
+}
+
+h1{
+  @media only screen and (max-width: 576px) {
+    font-size: 25px;
+
+  }
+}
+
+
+

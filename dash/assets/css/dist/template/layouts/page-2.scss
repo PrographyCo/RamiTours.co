@@ -1,0 +1,187 @@
+table tr:first-child {
+  td{
+    border-top: none;
+  }
+
+}
+@media (max-width: 576px) {
+  div {
+    font-size: 15px;
+  }
+  
+}
+
+table{
+  color: #636D73 !important;
+
+
+
+}
+form{
+  input{
+    border: 0px solid #ced4da !important;
+
+  }
+  .form-control {
+
+    color: #636D73;
+
+    border: 0px solid #ced4da;
+  }
+}
+ body  .square{
+   position: fixed;
+   top: 5%;
+   right: auto;
+   left: 17%;
+   z-index: 100;
+   width: 65%;
+   margin: auto;
+
+  display: none !important;
+
+
+}
+body{
+  &.square-active{
+    overflow: hidden;
+background-color: #EEEFF1;
+    //background-color:rgba(101,103,107,100);
+
+    .square{
+      display: block !important;
+
+    }
+  }}
+
+
+body  .replay{
+  position: fixed;
+  top: 20%;
+  right: auto;
+  left: 17%;
+  z-index: 100;
+  width: 65%;
+  margin: auto;
+
+  display: none !important;
+
+}
+body{
+  &.replay-active{
+    overflow: hidden;
+    background-color: #EEEFF1;
+    //background-color:rgba(101,103,107,100);
+
+    .replay{
+      display: block !important;
+
+    }
+  }}
+
+
+
+body{
+
+
+
+  button{
+    a{
+      color: #C8C8C8 !important;
+
+    }
+&.btn-light{
+
+  &:hover{
+    a{
+      color: #2d71f1 !important;
+
+    }
+
+  }
+}
+  }
+  .btn-blue{
+    a{
+      color: #ffffff !important;
+      &:hover{
+        color: #e2e6ea!important;
+      }
+    }
+  }
+  .square-clients{
+  position: fixed;
+  top: 5%;
+  right: auto;
+  left: 17%;
+  z-index: 100;
+  width: 65%;
+  margin: auto;
+
+  display: none !important;
+}}
+body{
+  &.square-clients-active{
+    overflow: hidden;
+    background-color: #EEEFF1;
+    //background-color:rgba(101,103,107,100);
+
+    .square-clients{
+      display: block !important;
+      z-index: 1250;
+
+    }
+  }}
+.counter{
+  ul{li{
+    a{
+      background-color: #F7F8F9;
+      border-radius:5px;
+      &.page-link {
+
+        color: #1d2124 !important;
+
+        &:hover{
+          border: 1px solid #1877F2;
+          color: #1877F2 !important;
+        }
+    }}
+
+  }}
+}
+
+.head-page-4{
+
+  a{
+
+  button{
+
+    &.btn-light {
+      background-color: #ffffff;
+      position: relative;
+      z-index: 100;
+
+
+    }
+      &:hover{
+        color: #fff !important;
+        background-color:#2d71f1  !important;
+
+
+
+     }
+
+    }
+
+  }
+}
+
+.img-client{
+  position: relative;
+}
+.input-img{
+  position: absolute;
+  left: 40%;
+  top:45%;
+
+}

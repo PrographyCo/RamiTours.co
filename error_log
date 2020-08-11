@@ -1,0 +1,38 @@
+[12-Apr-2020 09:26:21 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[14-Apr-2020 17:21:13 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[20-Apr-2020 17:00:55 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[25-Apr-2020 14:12:46 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[28-Apr-2020 23:30:06 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[18-May-2020 07:29:55 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[19-May-2020 18:28:18 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[01-Jun-2020 07:50:08 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[03-Jun-2020 12:02:11 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[06-Jun-2020 06:35:55 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[18-Jun-2020 06:27:04 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[22-Jun-2020 15:49:47 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[27-Jun-2020 08:04:12 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[30-Jun-2020 17:04:04 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[01-Jul-2020 07:50:40 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[01-Jul-2020 12:50:47 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[03-Jul-2020 06:10:34 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[03-Jul-2020 06:29:31 America/New_York] PHP Notice:  Undefined offset: 0 in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 41
+[03-Jul-2020 06:29:31 America/New_York] PHP Notice:  Undefined offset: 0 in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 42
+[03-Jul-2020 06:29:31 America/New_York] PHP Notice:  Undefined offset: 0 in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 48
+[03-Jul-2020 06:29:31 America/New_York] PHP Notice:  Trying to get property 'img' of non-object in /home/progwlfo/ramitours.co/app/views/about/data.view.php on line 80
+[03-Jul-2020 06:29:31 America/New_York] PHP Notice:  Trying to get property 'ename' of non-object in /home/progwlfo/ramitours.co/app/views/about/data.view.php on line 80
+[03-Jul-2020 06:29:31 America/New_York] PHP Notice:  Trying to get property 'ename' of non-object in /home/progwlfo/ramitours.co/app/views/about/data.view.php on line 80
+[04-Jul-2020 15:26:39 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[04-Jul-2020 23:24:22 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[06-Jul-2020 14:12:45 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[08-Jul-2020 18:44:53 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[08-Jul-2020 20:36:57 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[12-Jul-2020 16:36:45 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[18-Jul-2020 04:43:26 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[20-Jul-2020 09:32:19 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[25-Jul-2020 06:11:20 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[27-Jul-2020 08:00:43 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[30-Jul-2020 02:07:27 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[01-Aug-2020 11:24:08 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[01-Aug-2020 13:27:43 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[05-Aug-2020 15:06:34 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61
+[10-Aug-2020 14:04:57 America/New_York] PHP Notice:  Undefined index: id in /home/progwlfo/ramitours.co/app/controllers/aboutcontroller.php on line 61

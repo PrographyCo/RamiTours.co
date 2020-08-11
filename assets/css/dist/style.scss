@@ -1,0 +1,141 @@
+@import "template/layouts/variables";
+@import "all";
+body{
+  scroll-behavior: smooth;
+    //background: #eee;
+    font-family:  Raleway;
+  //Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+     margin: 0;
+    padding: 0;
+    position: relative;
+    color:#FFFFFF;
+    background-color: #000000;
+
+  //transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+
+  .container-fluid{
+    padding-right: 0;
+    padding-left: 140px;
+    @media (min-width: 576.9px)and(max-width: 992px){
+      padding-right: 0px;
+      padding-left: 50px;
+    }
+
+    @media (min-width: 1400px){
+      padding-right: 170px;
+      padding-left: 170px;
+    }
+    @media (max-width: 575.98px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  @if($site-en){ // اذا كان الموقع انجليزي
+    direction: ltr;
+    text-align: left;
+  }@else { // اذا كان الموقع عربي
+    direction: rtl;
+    text-align: right;
+  }
+
+
+
+}
+
+html, body { height:100%; }
+
+.flexbox {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.fav-btn {
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes favme-anime {
+  0%   {
+    opacity: 1;
+    font-size: ms(0);
+    -webkit-text-stroke-color: transparent;
+  }
+  25%	 {
+    opacity:.6;
+    color: #FFF;
+    font-size: ms(-2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DC3232;
+  }
+  75%	 {
+    opacity:.6;
+    color: #FFF;
+    font-size: ms(3);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DC3232;
+  }
+  100% {
+    opacity: 1;
+    font-size: ms(2);
+    -webkit-text-stroke-color: transparent;
+  }
+}
+
+@keyframes favme-hover {
+  from {
+    font-size: ms(3);
+  }
+  80% {
+    font-size: ms(2);
+  }
+}
+
+.favme {
+  display:block;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  box-shadow: none;
+  transition: all .2s ease;
+  color: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  z-index: 45;
+  bottom: 90%;
+  //right: 30%;
+  left:35%;
+
+  &.active {
+    color: #FF8C07;
+  }
+  &:hover {
+    animation: favme-hover .3s infinite alternate;
+  }
+  &.is_animating {
+    animation: favme-anime .3s;
+  }
+}
+
+
+
+
+
+
+@import "template/layouts/header";
+@import "template/layouts/slider";
+@import "template/layouts/aboutus";
+@import "template/layouts/services";
+
+@import "template/layouts/contactus";
+
+
+
+@import "template/layouts/footer";
+
+

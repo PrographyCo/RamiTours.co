@@ -1,0 +1,20 @@
+[17-Mar-2020 11:30:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php on line 3
+[17-Mar-2020 11:31:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php on line 3
+[17-Mar-2020 11:31:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php on line 3
+[17-Mar-2020 11:31:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php on line 3
+[17-Mar-2020 11:32:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function session_close() in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/progwlfo/try.ramitours.co/dash.rami.2202003/php/sesclose.php on line 3

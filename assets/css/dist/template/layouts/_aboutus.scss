@@ -1,0 +1,302 @@
+.aboutus{
+  background: url("../images/s2.svg") center center no-repeat ;
+
+  min-height: 100vh;
+  min-width: 100%;
+  padding-top: ($header-height + 20);
+
+
+
+  .page-title{
+    &.about{
+      @media (max-width: 991.9px) {
+        text-align: center;
+      }
+    }
+
+  }
+  .swiper-container{
+
+ background: none;
+.swiper-wrapper{
+  @media (max-width: 575.98px) {
+    width: 80% !important;}
+  padding-bottom:8%;
+  .swiper-slide{
+    width: 320.667px !important;
+    height: 400px;
+    margin-right: 0px;
+    position: relative;
+
+    @media (min-width: 1400px){
+      width: 400px !important;
+      height: 500px;
+
+    }
+
+    //@media (min-width: 576.9px)and(max-width: 992px){
+    //  width: 300px !important;
+    //  height: 400px;
+    //
+    //}
+    @media (max-width: 992px) {
+    width: 280px !important;
+    height: 310px;
+      margin-right: 0px;
+      position: relative;
+    }
+    @media (max-width: 480px) {
+      width: 240px !important;;
+      height: 270px;
+      margin-right: 0px;
+      position: relative;
+    }
+
+
+  :before{
+    content: "";
+    background-color: rgba(0, 0%, 0%, 0.049);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+
+
+   .title {  color: #FFFFFF;
+      font-size: 24px;
+     font-weight: 400;
+      position: absolute;
+     z-index: 5;
+     bottom: 9%;
+     left: 10%;
+     @media only screen and (max-width: 768px) {
+
+       font-size: 20px;
+     }
+
+    }
+    .subtitle {
+      color: #FFFFFF;
+      font-size: 21px;
+      position: absolute;
+      bottom: 4% !important;
+      z-index: 5;
+      left: 10%;
+
+      @media only screen and (max-width: 768px) {
+
+        font-size: 17px;
+      }
+
+    }
+  }}
+}
+
+
+
+  @media (min-width: 1400px){
+
+    h1{
+      font-size: 45px;
+    }
+    p{
+      font-size: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 1367px) {
+
+    h1{
+      font-size: 35px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+
+    h1{
+      font-size: 30px;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-progressbar, .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+    width: 100%;
+    height: 4px;
+    left: 0;
+    top: 99%;
+    bottom: 0;
+    right: 0;
+
+  }
+  .swiper-pagination-progressbar {
+    background:rgba(255, 255, 255, 0.25);
+    position: absolute;
+
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+
+  }
+
+
+
+  .swiper-pagination-progressbar-fill{
+    transform: translate3d(0px, 0px, 0px) scaleX(0.1) scaleY(1);
+    transition-duration: 300ms;
+  }
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #FFFFFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transform-origin: left bottom;
+  }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutus-explain{
+
+
+  @media only screen and (min-width: 1367.9px) {
+
+    h1{
+      font-size: 35px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1367px) {
+
+    h1{
+      font-size: 35px;
+    }
+    p{
+      font-size: 17px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+
+    h1{
+      font-size: 30px;
+    }
+    p{
+      font-size: 15px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 991px) {
+
+
+    .box1{
+      order: 1;
+      line-height: 2;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+
+    h1{
+      font-size: 25px;
+    }
+    p{
+      font-size: 14px;
+    }
+    h5{
+      font-size: 15px;
+    }
+
+  }
+  .about-img{
+    position: relative;
+  }
+
+.fav-btn{
+  position: absolute;
+  bottom: 8%;
+  left:92%;
+i{
+  font-size: 25px;
+}
+
+  @media (max-width: 991.9px) {
+
+      position: absolute;
+      bottom: 0%;
+      left: 88%;
+    i{
+      font-size: 22px;
+    }
+    }
+
+  @media (max-width: 480px) {
+
+      position: absolute;
+      bottom: -2%;
+      left: 82%;
+
+  }
+
+}
+  .favme {
+    display:block;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    box-shadow: none;
+    transition: all .2s ease;
+    color: #FFFFFF;
+    margin: 0;
+    position: absolute;
+    z-index: 7;
+    top: 10%;
+    //right: 30%;
+    &.active {
+      color: #FF8C07;
+    }
+    &:hover {
+      animation: favme-hover .3s infinite alternate;
+    }
+    &.is_animating {
+      animation: favme-anime .3s;
+    }
+  }
+}

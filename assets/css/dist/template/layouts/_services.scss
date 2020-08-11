@@ -1,0 +1,47 @@
+.services {
+  background: url("../images/st.svg") center center no-repeat;
+  //min-height: 160vh;
+  min-width: 100%;
+  position: relative;
+  padding-top: ($header-height + 20);
+
+  .text {
+    p {
+      line-height: 1.8;
+      font-size: 22px;
+
+
+    }
+
+    line-height: 1.8;
+    font-size: 22px;
+  }
+
+
+  @media (min-width: 577px) and (max-width: 1024px) {
+
+    .text {
+      font-size: 18px;
+      p{
+        font-size: 18px;
+      }
+    }
+
+  }
+  @media only screen and (max-width: 576px) {
+
+    .text {
+        font-size: 16px;
+      p{
+        font-size: 16px;
+      }
+      }
+  }
+}
+
+.co{
+  position: absolute;
+  top:101%;
+  margin-top: -35px;
+
+}

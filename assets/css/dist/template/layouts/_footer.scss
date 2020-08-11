@@ -1,0 +1,28 @@
+footer {
+  position: relative;
+
+.container{
+  position: relative;
+
+
+    .copy{
+      position: absolute;
+      z-index: 1280;
+    bottom:10px;
+      //display: inline-block;
+      //display: flex;
+      //justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+
+
+    }
+    }
+  
+  @media only screen and (max-width: 576px) {
+    font-size: 12px;
+    
+  }
+  }
+
+
